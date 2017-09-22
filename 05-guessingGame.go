@@ -1,6 +1,8 @@
 //Author: Gary Connelly
 //date 22/09/2017
 
+//https://www.youtube.com/watch?v=gh1yOouqFs0
+
 package main
 
 import "fmt"
