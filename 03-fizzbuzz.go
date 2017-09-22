@@ -11,11 +11,20 @@ import (
 //main methof
 
 func main() {
-	sum:= 0;
-	//basic for loop to print from 1-100
+	//sum:= 0;
 	for i := 0; i < 100; i++ {
-    sum += i
-	fmt.Println(sum)
+   	// sum += i
+		
+	 if i % 3 == 0 {
+		fmt.Println("fizz")
+	 } else if i % 5 == 0 {
+		fmt.Println("buzz")
+	 } else if i % 15 == 0  {
+		fmt.Println("fizzbuzz")
+	 } else {
+		fmt.Println(i)
+	 }//end if else
+	
   }
   
 }
