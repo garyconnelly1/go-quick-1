@@ -1,6 +1,7 @@
 //Author: Gary Connelly
 //date 22/09/2017
 
+//adapted from https://data-representation.github.io/notes/go.html
 
 package main
 
@@ -11,10 +12,10 @@ import (
 //main methof
 
 func main() {
-	//sum:= 0;
+	
 	for i := 0; i < 100; i++ {
-   	// sum += i
-		
+	
+	// if else conditions for fizz and buzz 
 	 if i % 3 == 0 {
 		fmt.Println("fizz")
 	 } else if i % 5 == 0 {
@@ -25,6 +26,6 @@ func main() {
 		fmt.Println(i)
 	 }//end if else
 	
-  }
+  }//end for
   
-}
+}//end main method
