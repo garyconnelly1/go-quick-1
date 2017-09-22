@@ -5,9 +5,11 @@ package main
 
 import "fmt"
 
-const myNumber = 5
+
 
 func main() {
+	const myNumber = 5
+	count := 1
 	var guess int
 	fmt.Println("Guess my number: ")
 	fmt.Scanf("%v", &guess)
