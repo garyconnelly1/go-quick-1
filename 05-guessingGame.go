@@ -17,16 +17,18 @@ func main() {
 	fmt.Scanf("%v", &guess)
 	
 	while guess != myNumber {
+	count++
 		if guess < myNumber {
 			fmt.Println("Too small, try again  ")
 			fmt.Println("Guess my number: ")
 			fmt.Scanf("%v", &guess)
-			count++
-		} else {
+			
+		} else if guess > myNumber {
 			fmt.Println("Too high, try again  ")
 			fmt.Println("Guess my number: ")
 			fmt.Scanf("%v", &guess)
-			count++
+			
 		}
 	}//end while
+	
 }
