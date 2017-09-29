@@ -14,4 +14,13 @@ func main() {
 	 26, 42, 17, 10, 4, 67, 98, 31, 82, 56,
 	}
 	
+	smallest, biggest := x[0], x[0]
+	for _, v := range x {
+		if v > biggest {
+			biggest = v
+		}
+		if v < smallest {
+			smallest = v
+		}
+	}
 }
