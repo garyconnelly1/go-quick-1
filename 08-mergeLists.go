@@ -33,3 +33,23 @@ func main () {
 	fmt.Println()
 
 }//end main
+
+
+//function to merge the sorted lists
+func merge (list1 [] int, list2 [] int) [] int{
+  var list3 [] int = len(list1) + len(list2)
+  
+  for i := 0; i < len(list1); i++ {
+    list3[i] = list1[i]
+    
+  }//end for
+  
+  for i = 0 , j := len(list1); i < len(list2); i++ , j++ { 
+    list3[j] = list2[i]
+    
+  }//end for
+  
+   sort(list3)
+   return list3
+  
+}//end merge method
