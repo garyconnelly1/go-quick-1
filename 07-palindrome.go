@@ -15,3 +15,14 @@ func main() {
 	word = strings.ToLower(word)
 	fmt.Println(palindromeChecker(word))
 }
+
+func palindromeChecker(s string) string {
+	middle := len(s) / 2
+	last := len(s) - 1
+	for i := 0; i < middle; i++ {
+		if s[i] != s[last-i] {
+			return "NO. It's not a Palimdrome."
+		}
+	}
+	return "YES! You've entered a Palindrome"
+}
