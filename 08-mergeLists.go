@@ -53,3 +53,29 @@ func merge (list1 [] int, list2 [] int) [] int{
    return list3
   
 }//end merge method
+
+// method for sorting lists
+func sort (list [] int){
+   for i := 0; i < len(list) -1; i++{
+     var min int = list [i]
+     var minIndex int = i
+     
+    for j := i + 1; j < len(list); j++{
+      
+      if (list[j] < min){
+        
+        min = list[j]
+        minIndex = j
+        
+      }//end if
+      
+      
+    }//end inner for
+    
+    if (minIndex != i){
+      list[minIndex] = list[i]
+      list[i] = min
+    }//end if
+   }//end for
+  
+}//end sort function
