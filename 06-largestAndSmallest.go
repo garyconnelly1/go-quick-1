@@ -1,4 +1,17 @@
 //Author: Gary Connelly
 //date 22/09/2017
 
-// adapted from https://play.golang.org/p/vhHmjhOMEo
+// inspired by https://play.golang.org/p/vhHmjhOMEo
+
+package main
+
+import "fmt"
+
+func main() {
+
+//create list of random numbers
+	x := []int{
+	 26, 42, 17, 10, 4, 67, 98, 31, 82, 56,
+	}
+	
+}
