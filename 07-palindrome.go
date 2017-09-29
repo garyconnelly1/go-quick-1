@@ -9,5 +9,9 @@ import (
 )
 
 func main() {
-
+ 	var word string
+	fmt.Println("Enter string:")
+	fmt.Scanf("%s\n", &word)
+	word = strings.ToLower(word)
+	fmt.Println(palindromeChecker(word))
 }
