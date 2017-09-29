@@ -23,4 +23,7 @@ func main() {
 			smallest = v
 		}
 	}
+	
+	fmt.Println("The biggest number is ", biggest)
+	fmt.Println("The smallest number is ", smallest)
 }
