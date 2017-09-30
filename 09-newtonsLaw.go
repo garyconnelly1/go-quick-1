@@ -16,3 +16,8 @@ func main() {
 	fmt.Println(Sqrt(yourNumber))
 
 }
+
+// Newton's method
+func zNext(z, x float64) float64 {
+	return z - (z*z-x)/(2*z)
+}
