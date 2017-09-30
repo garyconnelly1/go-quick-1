@@ -23,11 +23,15 @@ func main() {
 
 // Newton's method
 func zNext(z, x float64) float64 {
+	//newtons formula given in question
 	return z - (z*z-x)/(2*z)
 }
 
+//method for calculate square root of any number
 func Sqrt(x float64) float64 {
-	z := zNext(2, x)
+	//1 being the starting point for the formula to run 
+	z := zNext(1, x)
+	//delta being current number for z minus the next value for z
 	for zn, delta := z, z; delta > 0.00001; z = zn {
 		zn = zNext(z, x)
 		delta = z - zn
