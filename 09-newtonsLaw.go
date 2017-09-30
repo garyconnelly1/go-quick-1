@@ -21,3 +21,12 @@ func main() {
 func zNext(z, x float64) float64 {
 	return z - (z*z-x)/(2*z)
 }
+
+func Sqrt(x float64) float64 {
+	z := zNext(2, x)
+	for zn, delta := z, z; delta > 0.00001; z = zn {
+		zn = zNext(z, x)
+		delta = z - zn
+	}
+	return z
+}
