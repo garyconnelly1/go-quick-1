@@ -9,10 +9,14 @@ import (
 	"fmt"
 )
 
+
+//main method
 func main() {
   var yourNumber float64
+  //take in user input
   fmt.Println("Enter your number:")
   fmt.Scanf("%f\n", &yourNumber)
+  //call square root method for the input number
 	fmt.Println(Sqrt(yourNumber))
 
 }
