@@ -8,3 +8,11 @@ package main
 import (
 	"fmt"
 )
+
+func main() {
+  var yourNumber float64
+  fmt.Println("Enter your number:")
+  fmt.Scanf("%f\n", &yourNumber)
+	fmt.Println(Sqrt(yourNumber))
+
+}
