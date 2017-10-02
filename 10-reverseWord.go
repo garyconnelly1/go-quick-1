@@ -13,3 +13,12 @@ func main() {
 
 	fmt.Printf("The reverse of the String '%s' is %s", word, reverseWord(word)) // Print string in reverse
 }
+
+func reverseWord(s string) string {
+	var reverse string
+	
+    for i := len(s)-1; i >= 0; i-- {
+        reverse += string(s[i])
+    }
+    return reverse 
+}
