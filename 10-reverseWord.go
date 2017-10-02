@@ -3,15 +3,17 @@
 
 package main
 
+//import IO functionality
 import (
 	"fmt" 
 )
 
 
 func main() {
+//word could be any word at all. 
 	word := "HelloWorld" // Word to reverse
 
-	fmt.Printf("The reverse of the String '%s' is %s", word, reverseWord(word)) // Print string in reverse
+	fmt.Printf("The word '%s' is %s" spelt backwards!, word, reverseWord(word)) // Print string in reverse
 }
 
 func reverseWord(s string) string {

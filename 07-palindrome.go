@@ -14,7 +14,7 @@ func main() {
 	fmt.Println("Enter string:")
 	//scanf to take in user input
 	fmt.Scanf("%s\n", &word)
-	convert all letters to lower case
+	//convert all letters to lower case
 	word = strings.ToLower(word)
 	//call the palindromeChecker method
 	fmt.Println(palindromeChecker(word))
