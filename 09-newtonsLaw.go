@@ -3,6 +3,21 @@
 
 //adapted from https://gist.github.com/abesto/3476594
 
+/*
+Write a function to calculate the square root of a number using Newton’s method. Newton’s method is to approximate the square root of a number x by picking a starting point z and then repeating the following operation.
+
+z_next = z - ((z*z - x) / (2 * z))
+This is repeated while the values of z_next and z are different. After each iteration the value of z is replaced with that of z_next.
+
+Run a few tests to determine how close you are to the math.Sqrt value?
+
+Hint: to declare and initialize a floating point value, give it floating-point syntax or use a conversion:
+
+z := float64(1)
+z := 1.0
+
+*/
+
 package main
 
 import (

@@ -1,6 +1,8 @@
 //Author: Gary Connelly
 //date 29/09/2017
 
+//Write a function that merges two sorted lists into a new sorted list, e.g. merge([1,4,6], [2,3,5]) = [1,2,3,4,5,6].
+
 package main
 
 

@@ -1,6 +1,8 @@
 //Author: Gary Connelly
 //date 22/09/2017
 
+//Write a program that prints the numbers from 1 to 100, each on a new line, to the console, except for the following conditions. For multiples of three print Fizz instead of the number, and for multiples of five print Buzz. For numbers that are multiples of both three and five print FizzBuzz.
+
 //adapted from https://data-representation.github.io/notes/go.html
 
 package main

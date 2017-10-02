@@ -1,6 +1,9 @@
 //Author: Gary Connelly
 //date 29/09/2017
 
+
+//Write a function that tests whether a string is a palindrome. A palindrome is a string that reads the same in reverse, e.g. radar.
+
 package main
 
 import (

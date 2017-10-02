@@ -1,6 +1,8 @@
 //Author: Gary Connelly
 //date 20/09/2017
 
+//Write a program that prints the current time and date to the console.
+
 
 //Adapted from https://tour.golang.org/welcome/4
 

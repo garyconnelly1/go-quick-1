@@ -1,6 +1,8 @@
 //Author: Gary Connelly
 //date 02/10/2017
 
+// Write a function to reverse a string in Go.
+
 package main
 
 //import IO functionality

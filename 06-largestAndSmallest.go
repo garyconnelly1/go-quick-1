@@ -1,6 +1,8 @@
 //Author: Gary Connelly
 //date 22/09/2017
 
+//Write a function that returns the largest and smallest elements in a list.
+
 // inspired by https://play.golang.org/p/vhHmjhOMEo
 
 package main
