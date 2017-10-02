@@ -19,3 +19,9 @@ func main (){
   
   count := 0
 	var guess int
+	
+		//more variables
+	var previousGuess int
+	numFound := false
+	
+	//for loop for number Guessing
