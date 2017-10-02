@@ -7,30 +7,15 @@
 
 package main
 
+//import "time"
 import "fmt"
+import "math/rand"
 
-
-
-func main() {
-	const myNumber = 5
-	count := 1
+func main (){
+  
+  var myNum int
+  myNum = rand.Intn(100) 
+  //fmt.Println(myNum)
+  
+  count := 0
 	var guess int
-	fmt.Println("Guess my number: ")
-	fmt.Scanf("%v", &guess)
-	
-	while guess != myNumber {
-	count++
-		if guess < myNumber {
-			fmt.Println("Too small, try again  ")
-			fmt.Println("Guess my number: ")
-			fmt.Scanf("%v", &guess)
-			
-		} else if guess > myNumber {
-			fmt.Println("Too high, try again  ")
-			fmt.Println("Guess my number: ")
-			fmt.Scanf("%v", &guess)
-			
-		}
-	}//end while
-	
-}
