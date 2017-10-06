@@ -23,3 +23,7 @@ Run the executable file produced.
 Step 5:
 Repeat steps 3 and 4, replacing the file names with the file name you wish to execute. For example:
 ./02-timeAndDateGo.go
+
+
+
+* There was a syntax error on 08-mergeLists.go on line 53 that, after over an hour of examination and experimentation I was unable to fix.
